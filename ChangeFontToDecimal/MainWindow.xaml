@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChangeFontToDecimal"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Change font to decimal" Height="130" Width="300">
     <Grid>
-        
+        <TextBox x:Name="InputFontText" HorizontalAlignment="Center" Margin="0,15,0,0" Height="25" TextWrapping="Wrap" Text="Put" VerticalAlignment="Top" Width="150"/>
+        <TextBlock x:Name="OutputText" HorizontalAlignment="Center" Margin="0,25,0,0" TextWrapping="Wrap" Text="Wait..." VerticalAlignment="Center"/>
     </Grid>
 </Window>
